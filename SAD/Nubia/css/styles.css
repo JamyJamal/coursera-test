@@ -117,7 +117,7 @@ body {
   animation: moveVertical .65s ease forwards;
 }
 #whyAwesome-tile {
-  background: url('../images/whyAwesome-tile.jpg') no-repeat;
+  background: url('../images/WhyAwesome-tile.jpg') no-repeat;
   background-position: center;
 }
 #random-tile {
