@@ -1,0 +1,6 @@
+{"achievement_items":[
+	{"short_name":"S1","name":"Road to Success","description":"Nubia started in the role of SDC in July last year, the service desk was in a bit of a mess and morale was at an all time low. <br> Nubia rolled out a new IR ROTA, and all was well, so well infact that she got promoted to SDM only 5 months later! <br>Just look at the difference she made!"},
+	{"short_name":"S2","name":"Building on Success","description":"When the call answering states were starting to go down, Nubia devised the plan for a revision to the IR ROTA that changed the missed calls from over 10% down to only 3%, amazing work!"},
+	{"short_name":"S3","name":"CORE 4 Planning","description":"Nubia's input was cruical in rolling out the functionality of CORE 4's Helpdesk, she also worked closely with Leo in creating the Service Desk Dashboard so we have far better statics around the service desk and engineers can testify that working on Jobs is far easier in CORE 4 than it ever was in CORE 3."}],
+	"category":{"short_name":"S","name":"Service Desk","special_instructions":"Nubia started as SDC in July 2019. She has transformed the service desk!"}
+}

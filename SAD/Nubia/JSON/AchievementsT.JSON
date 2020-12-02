@@ -1,0 +1,10 @@
+{"achievement_items":[
+	{"short_name":"T1","name":"Commeth the hour commeth the Noobz","description":"When Jo and Katy departed, Nubia stepped up and helped steady the ship, our very own Wonder Woman!"},
+	{"short_name":"T2","name":"Behind every great man is a greater woman","description":"Nubia has coached Yugansh, Evhenii and Tom C to be come better managers and leaders. She has also helped Leo step into the world of SharePoint. Look at how happy she is at her handy work!"},
+	{"short_name":"T3","name":"Helping to get the CLARity out of Maria T_T","description":"Nubia helped to train Maria when she first started and now she has become the Finance Queen of Lucidica! <br>She also helped with the accounts when Maria hurt her hand."},
+	{"short_name":"T4","name":"Interview and onboarding champion!","description":"In the past year and a bit, Nubia has interviewed and help to onboard no less than 13 employees, here they are if you don't believe me! <br>Stas D, Andriy, William, Gregg, Alistair, Nathan, Sarah, Edoardo, Stas S<br>Lara, Maria, Kim and Tim"},
+	{"short_name":"T5","name":"Mercilessly cut the dead wood","description":"I jest, Nubia assessed and came to the conclusion that a couple of engineers didn't make the grade and expertly got them to leave gracefully...Althought maybe this is a picture of one of the engineers trying to get their revenge!"},
+	{"short_name":"T6","name":"Used her Social Media Knowledge to help others","description":"Nubia Helped Irina launch and maintain Lucidica's Intagram page, looking slick!"}
+	],
+	"category":{"short_name":"T","name":"Team Builder","special_instructions":"Building, nuturing and pruning the team"}
+}

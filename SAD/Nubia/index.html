@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Why Choose Nubia?</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
+  </head>
+<body>
+  <header>
+    <nav id="header-nav" class="navbar navbar-default">
+      <div class="container">
+        <div class="navbar-header">
+          <a href="index.html" class="pull-left visible-md visible-lg">
+            <div id="logo-img" alt="Logo image"></div>
+          </a>
+
+          <div class="navbar-brand">
+            <a href="index.html"><h1>Nubia - Achiever of the year</h1></a>
+
+          </div>
+
+          <button id="navbarToggle" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        
+        <div id="collapsable-nav" class="collapse navbar-collapse">
+           <ul id="nav-list" class="nav navbar-nav navbar-right">
+            <li id="navHomeButton" class="visible-xs active">
+              <a href="index.html">
+                <span class="glyphicon glyphicon-home"></span> Home</a>
+            </li>
+            <li id="navMenuButton">
+              <a href="#" onclick="$dc.loadAchievementsCategories();">
+                <span class="glyphicon glyphicon-certificate"></span><br class="hidden-xs">Why Awesome</a>
+            </li>
+            <li>
+              <a href="#" onclick="$dc.loadRamdomPicsHTML();">
+                <span class="glyphicon glyphicon-sunglasses"></span><br class="hidden-xs">Random</a>
+            </li>
+          </ul><!-- #nav-list -->
+        </div><!-- .collapse .navbar-collapse -->
+      </div><!-- .container -->
+    </nav><!-- #header-nav -->
+  </header>
+
+  <div id="main-content" class="container"></div> <!-- Main Content goes here -->
+
+  <footer class="panel-footer">
+    <div class="container">
+      <div class="row">
+        <div class="text-right"><a href="#" id="back">Back to top</a></div>
+        <section id="testimonials" class="col-sm-4">
+          <p>"Nubia is a machine, a beautiful, funny machine, I have never seen someone so committed and hardworking, and results driven, but can also have a laugh and be plesant to be around"</p>
+          <hr class="visible-xs">
+        </section>
+        <section id="testimonials" class="col-sm-4">
+          <p>"It's great to be working where you know the service desk is handled well so you can concentrate  more on your own work. Thanks for accompanying me to the challenging but also sometimes funny client meetings!!"</p>
+          <hr class="visible-xs">
+        </section>
+        <section id="testimonials" class="col-sm-4">
+          <p>"Nubia is a force to be reckoned with, she’s transformed the service desk, been a mentor to most, cajoled clients and sold more products than any engineer"</p>
+        </section>
+      </div>
+      <div class="text-center">&copy; Copyright Jamy Jamal 2020!</div>
+    </div>
+  </footer>
+
+  <!-- jQuery (Bootstrap JS plugins depend on it) -->
+  <script src="js/jquery-2.1.4.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/ajax-utils.js"></script>
+  <script src="js/script.js"></script>
+   <!-- 
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMyshMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMN.  `/yNMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMN-     :odMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMN-    oh+:/yNMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMN-   oddddo::odMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMN:  /dddddddy/-/ymMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMNdy
+MMMMMMMMMN: .ddddddddddho--odMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMNdsoooyd
+MMMMMMMMMMN- yddddddddddddds:-omMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMds+/+sdddddd
+MMMMMMMMMMMN--dddddddddddddddds::sNMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMmy+//oydddddddddd
+MMMMMMMMMMMMN::dddddddddddddddddds//yNMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMNho/:+sddddddddddddddd
+MMMMMMMMMMMMMM/.hddddddddddddddddddds/+dMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMmy+::oyddddddddddddddddddd
+MMMMMMMMMMMMMMMs`sdddddddddddddddddddddo/sNMMMNNNmmmddhhhhyyyyssssssoo+//:/ohddddddddddddddddddddddd
+MMMMMMMMMMMMMMMMm-:hdddddddddddddddddddddho++ooooossssyyyyyhhhhhhhhhhhddddddddddddddddddddddddddddy+
+MMMMMMMMMMMMMMMMMMs.oddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddds+hM
+MMMMMMMMMMMMMMMMMMMN+.sdddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddo+hMMM
+MMMMMMMMMMMMMMMMMMMMMm+-sddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddy/+mMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMNo-oddhohdddddddddddddddddddddddddddddddddddddddddddddddddddddddddo/sNMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMy::oddddddddddddddddddddddddddddddddddddddddddddddddddddssddy//hMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMN:sdddddddddddddddddddddddddddddddddddddddddddddddddddddds::sNMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMM/odddddddddddddddddddddddddddddddddddddddddddddddddddddddds/MMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMh.dddddddddddddddddddddddddddddddddddddddddhyhdddddddddddddds:MMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMM:oddddddddyso. -yddddddddddddddddddddddddsso. `oddddddddddddd+/MMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMh`ddddddddd-yd:  `dddddddddddddddddddddddh.hh-   hddddddddddddd-yMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMM-+ddddddddds`   `odddddddddddddddddddddddd/     /ddddddddddddddh`NMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMs`ddddddddddddysydddddddddddddddddddddddddddhsoshdddddddddddddddd/+MMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMN`oddddddddddddddddddddddddsssydddddddddddddddddddddddddddddddddddh`NMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMM+-ddhddddddddddddddddddddddy//yddddddddddddddddddddddddhyyhdddddddd-oMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMm :::::/oddddddddddddddddddddddddddddddddddddddddddddd+:://::+dddddds`NMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMm/.///////:ddddddddddddddddddddddddddddddddddddddddddd:////////-dddddd.sMMMMMMM
+MMMMMMMMMMMMMMMMMMMMm :///////-hddddddddddddddddddhyyyyyhddddddddddddddddd-////////-hddddds`NMMMMMMM
+MMMMMMMMMMMMMMMMMMMMs`://////:+dddddddddddddddy-.`.:/+oo+/+ydddddddddddddd+://////:/ddddddd:/MMMMMMM
+MMMMMMMMMMMMMMMMMMMMo.ds+//+ohdddddddddddddddd+.`:ooooooooo-dddddddddddddddy+////+yddddddddh`hMMMMMM
+MMMMMMMMMMMMMMMMMMMMd hdddddddddddddddddddddddy`/oooooooooo:hdddddddddddddddddddddddddddddddo.MMMMMM
+MMMMMMMMMMMMMMMMMMMMM/:dddddddddddddddddddddddd:ooooooooooo-ddddddddddddddddddddddddddddddddd.sMMMMM
+MMMMMMMMMMMMMMMMMMMMMM:/dddddddddddddddddddddddd+/+oooooo+/sdddddddddddddddddddddddddddddddddy.NMMMM
+MMMMMMMMMMMMMMMMMMMMMMM//dddddddddddddddddddddddddysoooosydddddddddddddddddddddddddddddddddddd-sMMMM
+MMMMMMMMMMMMMMMMMMMMMMMM/+ddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddy.MMMM
+MMMMMMMMMMMMMMMMMMMMMMMMM-ydddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd:hMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMh/ddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddy/MMM
+MMMMMMMMMMMMMMMMMMMMMMMMMh+ddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd:NMM
+Pika Pika! (Don't be nosy Ozge and Stas!)
+-->
+</body>
+</html>
